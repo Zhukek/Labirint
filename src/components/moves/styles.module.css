@@ -1,0 +1,23 @@
+.arrows {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.arrow {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+}
+
+.up {
+  transform: rotate(180deg);
+}
+
+.left {
+  transform: rotate(90deg);
+}
+
+.right {
+  transform: rotate(270deg);
+}

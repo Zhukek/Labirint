@@ -1,0 +1,16 @@
+.restartButton {
+  height: fit-content;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(22, 20, 49);
+  border-radius: 5px;
+  background-color: aqua;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.restartButton:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px 5px 3px rgb(26, 53, 74);
+}

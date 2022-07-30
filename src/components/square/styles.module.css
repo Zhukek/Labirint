@@ -1,0 +1,29 @@
+.square {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 2px;
+  background-color: steelblue;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.square:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px 5px rgb(26, 53, 74);
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: rgb(151, 12, 12);
+}
+
+.start {
+  font-size: 28px;
+  font-weight: 600;
+}
